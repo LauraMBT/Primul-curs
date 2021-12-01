@@ -1,0 +1,96 @@
+
+.parent1{
+	display: flex;
+	background-color: rgb(109, 154, 196);
+	justify-content:space-between;
+	align-items: center;
+}
+
+ul {
+	list-style-type:none;
+	display: flex;
+	padding: 10px;
+	justify-content:space-between;
+	text-align: center;
+	width: 25%;
+}
+
+li a{
+	color: white;
+	justify-content: space-around;
+	text-decoration: none;
+}
+
+li a:hover {
+	color: hotpink;
+}
+
+.phone{
+	padding: 10px;
+	font-size: 1.5rem;
+}
+
+.carousel-item:after{
+	
+	content:"";
+	padding-top: 40%;
+	display:block;
+}
+	
+.carousel-item{
+	
+	background-size: cover;
+	background-position: center;
+	
+}
+
+.card-wrapper {
+	margin: 5% 0;
+ }
+  
+
+.custom-circle-image{
+	width: 15vw;
+	height: 15vw;
+}
+
+.custom-circle-image img{
+	object-fit: cover;
+}
+
+.card-title{
+	letter-spacing: 1.1px;
+}
+
+.card-text {
+	font-family: MerriweatherRegular;
+	font-size: 22px;
+	line-height: initial;
+ }
+
+/*Despre noi page*/
+.team-img{
+	background-size: cover;
+background-position: center;
+
+}
+
+.team-img:before {
+	content:"";
+	display:block;
+	padding-top: 100%;
+}
+
+
+ .custom-flag {
+	object-fit: cover;
+	width: 15vw; 
+	height: 5vw;
+}
+
+footer{
+	padding-top: 3rem ;
+}
+
+
+
